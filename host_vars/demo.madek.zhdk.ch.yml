@@ -14,7 +14,7 @@ madek_tmp_dir: /srv/madekdata/tmp
 
 # audio and videos previews
 zencoder_enabled: false
-# zencoder_api_key: '{{zhdk_zencoder_api_key}}'
+# NOTE: zencoder_api_key is included from secrets.yml
 # zencoder_test_mode: True
 
 # backups
