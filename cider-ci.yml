@@ -46,4 +46,4 @@ jobs:
             certbot:
               start_when: {after: {script_key: deploy}}
               body: |
-                ssh demo.madek.zhdk.ch 'certbot run --apache -n --redirect --hsts --uir --strict-permissions --apache-vhost-root /etc/apache2/madek/ -d demo.madek.zhdk.ch'
+                ssh demo.madek.zhdk.ch 'certbot run --apache -n --redirect --hsts --uir --strict-permissions -d demo.madek.zhdk.ch'
